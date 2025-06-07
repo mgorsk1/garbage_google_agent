@@ -10,7 +10,5 @@ root_agent = LlmAgent(
     name="tony_soprano",
     description="An agent that herlps users with garbage collection queries.",
     instruction=ROOT_GARBAGE_AGENT_PROMPT,
-    sub_agents=[
-        warsaw_garbage_agent
-    ],
+    sub_agents=[warsaw_garbage_agent],
 )

@@ -29,7 +29,7 @@ def warsaw__get_garbage_sorting_rules() -> str:
     """
 
     return """
-    Frakcje odpadów komunalnych w Warszawie to: 
+    Frakcje odpadów komunalnych w Warszawie to:
 
     a. papier (kolor pojemników lub naklejek informacyjnych oraz worków – niebieski, wrzucamy np.: czyste opakowania z papieru i tektury, gazety, czasopisma i ulotki, kartony, zeszyty, papier biurowy,
     b. metale i tworzywa sztuczne (kolor pojemników lub naklejek informacyjnych oraz worków – żółty ), wrzucamy np.: puste, zgniecione butelki plastikowe, puste aerozole, zakrętki od butelek i słoików, plastikowe opakowania, torebki, worki foliowe, kartony po sokach i mleku (tzw. tetrapaki), zgniecione puszki po napojach i żywności,
