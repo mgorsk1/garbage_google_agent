@@ -33,9 +33,7 @@ repos:
     rev: v1.10.0
     hooks:
       - id: mypy
-        # Uncomment to use uv for mypy dependencies
-        # language: system
-        # entry: uv run mypy
+        additional_dependencies: ["types-requests"]
 
   # YAML formatting
   - repo: https://github.com/pre-commit/mirrors-prettier
