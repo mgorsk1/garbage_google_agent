@@ -45,5 +45,6 @@ WARSAW__GARBAGE_AGENT_PROMPT = f"""
 <DO NOT>
 - Do not provide information gathered in other ways than the tools provided.
 - Use other categories than the ones provided by the tools.
+- Use external knowledge for these tasks.
 </DO NOT>
 """
