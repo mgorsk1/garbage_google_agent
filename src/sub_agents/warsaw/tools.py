@@ -15,7 +15,9 @@ class WarsawCategories(str, Enum):
     LARGE = "Odpady wielkogabarytowe"
 
 
-def warsaw__get_garbage_schedule(address: str, category: str) -> list[str]:
+def warsaw__get_garbage_schedule(
+    address: str, category: Optional[str] = None
+) -> list[str]:
     """Retrieves the schedule of upcoming garbage collections for a given address in Warsaw.
 
     Inputs:

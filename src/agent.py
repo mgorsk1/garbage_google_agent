@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 root_agent = LlmAgent(
     model=MODEL,
-    name="tony_soprano",
+    name="Garbage",
     description="An agent that helps users with garbage collection queries.",
     instruction=ROOT_GARBAGE_AGENT_PROMPT,
     sub_agents=[warsaw_garbage_agent],

@@ -13,7 +13,7 @@ from .tools import (
 
 warsaw_garbage_agent = LlmAgent(
     model=MODEL,
-    name="warsaw_garbage_agent",
+    name="WarsawGarbage",
     description="An agent that helps users with garbage collection queries related to Warsaw city.",
     instruction=WARSAW__GARBAGE_AGENT_PROMPT,
     tools=[
